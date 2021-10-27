@@ -4,7 +4,7 @@
 - In Application => application.properties change with your password MySQL;
 - In POSTMAN => import Collection with this json => docs/api.postman_collection.json;
 
-##Spring Boot dependencies
+## Spring Boot dependencies
 - Spring Boot Starter DATA JPA;
 - Spring Boot Starter WEB;
 - Spring Boot Starter TEST;
