@@ -8,13 +8,14 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Optional;
 
 @RestController
+@RequestMapping("/api")
 public class UserController {
     @Autowired
     private UserService userService;
 
     //CREATE
     //http://localhost:8080/createUser=<user>
-    @PostMapping(value = "/createUser")
+    @PostMapping("/createUser")
     public void createUser(@RequestBody User user) {
         userService.createUser(user);
     }
