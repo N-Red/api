@@ -27,21 +27,8 @@ public class User {
         this.phone = phone;
     }
 
-    public User(Long id, String firstName, String lastName, String surname, String email, String phone) {
-        this.id = id;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.surname = surname;
-        this.email = email;
-        this.phone = phone;
-    }
-
     public Long getId() {
         return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
     }
 
     public String getFirstName() {
